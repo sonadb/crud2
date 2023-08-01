@@ -1,0 +1,41 @@
+.top-row{
+    padding: 1em 0;
+  }
+  .mat-form-field{
+    width:100%;
+  }
+  .image-container {
+    width:200px;
+    height: 200px;
+    background-color: #f7f7f7;
+    border:2px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .image-container img{
+    width: 200px;
+  }
+  .name{
+    text-align: center;
+  }
+  #formtable{
+    padding-left: 40px;
+  }
+  .btncontainer{
+    padding-right: 50px;
+  }
+  #addbutton{
+    padding-bottom: 20px;
+  }
+  #id{
+    padding-left: 20px;
+  }
+  .form1{
+    padding-left: 20px;
+  }
+  #space{
+    padding: 2px;
+  }

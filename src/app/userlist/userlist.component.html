@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="row mt-5">
+  <table class="table table-striped">
+  <thead>
+    <tr>
+      <th>
+     Firstname
+      </th>
+      <th>Lastname</th>
+      <th>Gender</th>
+      <th>Dateofbirth</th>
+      <th>Email</th>
+      <th>PhoneNo</th>
+      <th>Account</th>
+      <th>Address</th>
+      <th>Loantype</th>
+      <th class="colspan-2">Actions</th>
+     </tr>
+  </thead>
+    <tbody>
+    <tr *ngFor="let applicant of users">
+     <td>{{applicant.firstname}}</td>
+    <td>{{applicant.lastname}}</td>
+    <td>{{applicant.gender}}</td>
+    <td>{{applicant.dateofbirth}}</td>
+    <td>{{applicant.email}}</td>
+    <td>{{applicant.phoneno}}</td>
+    <td>{{applicant.account}}</td>
+    <td>{{applicant.address}}</td>
+  
+    <!-- <td><button class="btn btn-primary">Approve</button></td>
+    <td><button class="btn btn-danger">Reject</button></td> -->
+  
+    </tr>
+  </tbody>
+  </table>
+    </div>
+  </div>
